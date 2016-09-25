@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../api/api.c" open="0" top="0" tabpos="2">
+		<Cursor position="2224" topLine="65" />
+	</File>
+	<File name="../api/api_parser_routines.c" open="0" top="0" tabpos="0">
+		<Cursor position="48" topLine="0" />
+	</File>
+	<File name="../api/api_routines.c" open="0" top="0" tabpos="0">
+		<Cursor position="190" topLine="0" />
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="1">
+		<Cursor position="834" topLine="12" />
+	</File>
+</CodeBlocks_layout_file>

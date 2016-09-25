@@ -1,0 +1,386 @@
+# depslib dependency file v1.0
+1404794352 source:/ssd/git/codeblocks/bot2/ticker/main.c
+	"logs.h"
+	<stdio.h>
+	<errno.h>
+	<mqueue.h>
+	<time.h>
+
+1404746412 source:/ssd/git/codeblocks/bot2/ticker/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1404746412 /ssd/git/codeblocks/bot2/ticker/jsmn/jsmn.h
+	<stddef.h>
+
+1404793572 source:/ssd/git/codeblocks/bot2/ticker/logs.c
+	"logs.h"
+	<time.h>
+	<stdio.h>
+
+1404793572 /ssd/git/codeblocks/bot2/ticker/logs.h
+
+1404750086 source:/ssd/git/codeblocks/bot2/ticker/parser.c
+	"parser.h"
+	"jsmn/jsmn.h"
+	"logs.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+
+1404750115 /ssd/git/codeblocks/bot2/ticker/parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1404794423 source:/files/git/codeblocks/bot2/ticker/api.c
+	"api.h"
+	"curl_routines.h"
+	"parser.h"
+	<string.h>
+
+1404794439 /files/git/codeblocks/bot2/ticker/api.h
+	<stdbool.h>
+
+1404794634 /files/git/codeblocks/bot2/ticker/curl_routines.h
+	<stdbool.h>
+
+1404793572 /files/git/codeblocks/bot2/ticker/parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1404794641 source:/files/git/codeblocks/bot2/ticker/curl_routines.c
+	"curl_routines.h"
+	"parser.h"
+	"logs.h"
+	<curl/curl.h>
+	<stdlib.h>
+	<string.h>
+
+1404793572 /files/git/codeblocks/bot2/ticker/logs.h
+
+1404793572 source:/files/git/codeblocks/bot2/ticker/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1404793572 /files/git/codeblocks/bot2/ticker/jsmn/jsmn.h
+	<stddef.h>
+
+1404793572 source:/files/git/codeblocks/bot2/ticker/logs.c
+	"logs.h"
+	<time.h>
+	<stdio.h>
+
+1414130086 source:/files/git/codeblocks/bot2/ticker/main.c
+	<stdio.h>
+	<errno.h>
+	<mqueue.h>
+	<time.h>
+	<string.h>
+	<syslog.h>
+	<pthread.h>
+	<libgen.h>
+	<unistd.h>
+	"../api/api.h"
+	"conf.h"
+
+1404793572 source:/files/git/codeblocks/bot2/ticker/parser.c
+	"parser.h"
+	"jsmn/jsmn.h"
+	"logs.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+
+1404986776 source:/files/git/codeblocks/bot2/ticker/api/api.c
+	"api.h"
+	"api_routines.h"
+	"api_parser.h"
+	<syslog.h>
+
+1404985916 /files/git/codeblocks/bot2/ticker/api/api.h
+	<stdbool.h>
+
+1404795927 /files/git/codeblocks/bot2/ticker/api/parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1404793572 source:/files/git/codeblocks/bot2/ticker/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1404878561 /files/git/codeblocks/bot2/ticker/api/jsmn/jsmn.h
+	<stddef.h>
+
+1404795898 source:/files/git/codeblocks/bot2/ticker/api/parser.c
+	"parser.h"
+	"jsmn/jsmn.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+
+1404878561 source:/files/git/codeblocks/bot2/ticker/api/api_parser.c
+	"api_parser.h"
+	"api_parser_routines.h"
+	"api_last_err.h"
+	<string.h>
+
+1404966431 /files/git/codeblocks/bot2/ticker/api/api_parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1404878561 /files/git/codeblocks/bot2/ticker/api/api_parser_routines.h
+	"jsmn/jsmn.h"
+	"api_defines.h"
+	<stdbool.h>
+
+1404878561 source:/files/git/codeblocks/bot2/ticker/api/api_parser_routines.c
+	"api_parser_routines.h"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+
+1404836434 source:/ssd/git/codeblocks/bot2/ticker/api/api.c
+	"api.h"
+	"api_routines.h"
+	"api_last_err.h"
+	"api_parser.h"
+	<string.h>
+
+1404834946 /ssd/git/codeblocks/bot2/ticker/api/api.h
+	<stdbool.h>
+	"api_last_err.h"
+
+1404835831 /ssd/git/codeblocks/bot2/ticker/api/api_last_err.h
+
+1404835089 /ssd/git/codeblocks/bot2/ticker/api/api_routines.h
+	<stdbool.h>
+
+1404835809 /ssd/git/codeblocks/bot2/ticker/api/api_parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1404835831 source:/ssd/git/codeblocks/bot2/ticker/api/api_last_err.c
+	"api_last_err.h"
+
+1404836883 source:/ssd/git/codeblocks/bot2/ticker/api/api_parser_routines.c
+	"api_parser_routines.h"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+
+1404836841 /ssd/git/codeblocks/bot2/ticker/api/api_parser_routines.h
+	"jsmn/jsmn.h"
+	<stdbool.h>
+
+1404835901 /ssd/git/codeblocks/bot2/ticker/api/jsmn/jsmn.h
+	<stddef.h>
+
+1404835089 source:/ssd/git/codeblocks/bot2/ticker/api/api_routines.c
+	"api_routines.h"
+	"api_last_err.h"
+	"api_parser.h"
+	<string.h>
+	<curl/curl.h>
+
+1404835901 source:/ssd/git/codeblocks/bot2/ticker/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1404878561 /files/git/codeblocks/bot2/ticker/api/api_last_err.h
+	"api_defines.h"
+
+1404878561 /files/git/codeblocks/bot2/ticker/api/api_defines.h
+
+1404976622 /files/git/codeblocks/bot2/ticker/api/api_routines.h
+	<stdbool.h>
+	<stdlib.h>
+
+1404878561 source:/files/git/codeblocks/bot2/ticker/api/api_last_err.c
+	"api_last_err.h"
+	"api_defines.h"
+
+1412927810 source:/files/git/codeblocks/bot2/api/api.c
+	"api.h"
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	<syslog.h>
+	<stdio.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api.h
+	<stdbool.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_routines.h
+	<stdbool.h>
+	<stdlib.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_defines.h
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_parser.c
+	"api_parser.h"
+	"api_parser_routines.h"
+	<string.h>
+	<syslog.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_parser_routines.h
+	"jsmn/jsmn.h"
+	"api_defines.h"
+	<stdbool.h>
+
+1409717410 /files/git/codeblocks/bot2/api/jsmn/jsmn.h
+	<stddef.h>
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_parser_routines.c
+	"api_parser_routines.h"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_routines.c
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	"api_sign.h"
+	"api_nonce.h"
+	<string.h>
+	<curl/curl.h>
+	<syslog.h>
+	<errno.h>
+
+1405051987 /files/git/codeblocks/bot2/api/sign.h
+
+1405051987 /files/git/codeblocks/bot2/api/nonce.h
+
+1409717410 source:/files/git/codeblocks/bot2/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1405051987 source:/files/git/codeblocks/bot2/api/nonce.c
+	"nonce.h"
+	<stdio.h>
+	<stdlib.h>
+	<syslog.h>
+
+1405051987 source:/files/git/codeblocks/bot2/api/sign.c
+	"sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_nonce.c
+	"api_nonce.h"
+	<stdio.h>
+	<stdlib.h>
+	<syslog.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_nonce.h
+
+1409717410 /files/git/codeblocks/bot2/api/api_sign.h
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_sign.c
+	"api_sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api.c
+	"api.h"
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	<syslog.h>
+	<stdio.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api.h
+	<stdbool.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_routines.h
+	<stdbool.h>
+	<stdlib.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_defines.h
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_nonce.c
+	"api_nonce.h"
+	<stdio.h>
+	<stdlib.h>
+	<syslog.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_nonce.h
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_parser.c
+	"api_parser.h"
+	"api_parser_routines.h"
+	<string.h>
+	<syslog.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_parser_routines.h
+	"jsmn/jsmn.h"
+	"api_defines.h"
+	<stdbool.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/jsmn/jsmn.h
+	<stddef.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_parser_routines.c
+	"api_parser_routines.h"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_routines.c
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	"api_sign.h"
+	"api_nonce.h"
+	<string.h>
+	<curl/curl.h>
+	<syslog.h>
+	<errno.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_sign.h
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_sign.c
+	"api_sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1407424560 source:/ssd/git/codeblocks/bot2/ticker/conf.c
+	"conf.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<syslog.h>
+	<libconfig.h>
+
+1407425750 /ssd/git/codeblocks/bot2/ticker/conf.h
+	<stdbool.h>
+
+1409717410 source:/files/git/codeblocks/bot2/ticker/conf.c
+	"conf.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<syslog.h>
+	<libconfig.h>
+
+1409717410 /files/git/codeblocks/bot2/ticker/conf.h
+	<stdbool.h>
+

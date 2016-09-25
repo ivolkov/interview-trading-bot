@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ticker" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ticker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="rt" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ticker" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="rt" />
+			<Add library="curl" />
+			<Add library="crypto" />
+			<Add library="config" />
+			<Add library="pthread" />
+		</Linker>
+		<Unit filename="../api/api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api.h" />
+		<Unit filename="../api/api_defines.h" />
+		<Unit filename="../api/api_nonce.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_nonce.h" />
+		<Unit filename="../api/api_parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_parser.h" />
+		<Unit filename="../api/api_parser_routines.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_parser_routines.h" />
+		<Unit filename="../api/api_routines.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_routines.h" />
+		<Unit filename="../api/api_sign.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_sign.h" />
+		<Unit filename="../api/jsmn/jsmn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/jsmn/jsmn.h" />
+		<Unit filename="conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conf.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

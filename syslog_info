@@ -1,0 +1,5 @@
+local4.=err		/home/beh/bot/error.log
+local4.=debug	/home/beh/bot/debug.log
+local4.=info	/home/beh/bot/info.log
+local4.=notice	/home/beh/bot/balance.log
+local5.*		/home/beh/bot/prices.log

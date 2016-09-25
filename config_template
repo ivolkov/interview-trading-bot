@@ -1,0 +1,24 @@
+#trading pair
+pair = "btc_usd"
+
+#minimim order volume
+min_order = 0.1
+
+#exchange credentials
+key = "XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX-XXXXXXXX"
+secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+#trigger value in percent
+trigger = 0.02
+
+#profit value in percent
+profit = 0.01
+
+#fuse value in percent
+fuse = 0.03
+
+#price correction in percent
+price_correction = 50.0
+
+#maximum trade delay in seconds
+max_wait = 1209600	// two weeks

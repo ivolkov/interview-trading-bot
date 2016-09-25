@@ -1,0 +1,416 @@
+# depslib dependency file v1.0
+1404708468 source:/files/git/codeblocks/bot2/trader/api/api.c
+	"api.h"
+	"api_private_routines.h"
+	"parser.h"
+	"nonce.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1404796675 /files/git/codeblocks/bot2/trader/api/api.h
+	<stdbool.h>
+
+1404706943 /files/git/codeblocks/bot2/trader/logs/logs.h
+	<stdbool.h>
+
+1404706943 /files/git/codeblocks/bot2/trader/api/parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1404706943 /files/git/codeblocks/bot2/trader/api/nonce.h
+
+1404706943 source:/files/git/codeblocks/bot2/trader/api/curl_private_routines.c
+	"curl_private_routines.h"
+	"sign.h"
+	"parser.h"
+	"nonce.h"
+	"../logs/logs.h"
+	<curl/curl.h>
+
+1404706943 /files/git/codeblocks/bot2/trader/api/curl_private_routines.h
+	<stdbool.h>
+
+1404706943 /files/git/codeblocks/bot2/trader/api/sign.h
+
+1404706943 source:/files/git/codeblocks/bot2/trader/api/errors.c
+	"errors.h"
+	"nonce.h"
+	"../logs/logs.h"
+	"parser.h"
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+
+1404706943 /files/git/codeblocks/bot2/trader/api/errors.h
+	<stdbool.h>
+
+1404706943 source:/files/git/codeblocks/bot2/trader/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1404706943 /files/git/codeblocks/bot2/trader/api/jsmn/jsmn.h
+	<stddef.h>
+
+1404706943 source:/files/git/codeblocks/bot2/trader/api/nonce.c
+	"nonce.h"
+	"../logs/logs.h"
+	<stdio.h>
+	<stdlib.h>
+
+1404706943 source:/files/git/codeblocks/bot2/trader/api/parser.c
+	"parser.h"
+	"jsmn/jsmn.h"
+	"../logs/logs.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<errno.h>
+
+1404706943 source:/files/git/codeblocks/bot2/trader/api/sign.c
+	"sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+
+1410860275 source:/files/git/codeblocks/bot2/trader/conf.c
+	"conf.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<syslog.h>
+	<libconfig.h>
+
+1410860275 /files/git/codeblocks/bot2/trader/conf.h
+	<stdbool.h>
+
+1414127241 source:/files/git/codeblocks/bot2/trader/exchange.c
+	"exchange.h"
+	"tmr.h"
+	"conf.h"
+	"ipc.h"
+	"../api/api.h"
+	"../api/api_parser.h"
+	<string.h>
+	<stdio.h>
+	<unistd.h>
+	<math.h>
+	<syslog.h>
+
+1413451836 /files/git/codeblocks/bot2/trader/exchange.h
+	<stdbool.h>
+
+1409717410 /files/git/codeblocks/bot2/trader/tmr.h
+	<time.h>
+
+1404706943 source:/files/git/codeblocks/bot2/trader/logs/logs.c
+	"logs.h"
+	<stdio.h>
+	<time.h>
+
+1410409158 source:/files/git/codeblocks/bot2/trader/main.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<time.h>
+	<syslog.h>
+	<string.h>
+	<libgen.h>
+	"../api/api.h"
+	"exchange.h"
+	"conf.h"
+
+1409717410 source:/files/git/codeblocks/bot2/trader/tmr.c
+	"tmr.h"
+	<unistd.h>
+
+1404709877 /files/git/codeblocks/bot2/trader/api/api_private_routines.h
+	<stdbool.h>
+
+1404708275 source:/files/git/codeblocks/bot2/trader/api/curl_public_routines.c
+	"curl_public_routines.h"
+	"sign.h"
+	"nonce.h"
+	"parser.h"
+	"../logs/logs.h"
+	<curl/curl.h>
+	<stdbool.h>
+	<stdlib.h>
+	<string.h>
+
+1404708275 /files/git/codeblocks/bot2/trader/api/curl_public_routines.h
+	<stdbool.h>
+
+1404710104 source:/files/git/codeblocks/bot2/trader/api/api_private_routines.c
+	"api_private_routines.h"
+	"curl_private_routines.h"
+	"parser.h"
+	"errors.h"
+	"sign.h"
+	"nonce.h"
+	<string.h>
+	<stdio.h>
+
+1404709965 source:/files/git/codeblocks/bot2/trader/api/api_public_routines.c
+	"api_public_routines.h"
+	"parser.h"
+	<string.h>
+	"curl_public_routines.h"
+
+1404709845 /files/git/codeblocks/bot2/trader/api/api_public_routines.h
+	<stdbool.h>
+
+1404725312 source:/files/git/codeblocks/bot2/trader/api/api_private.c
+	"api_private.h"
+	"parser.h"
+	"nonce.h"
+	"curl_private_routines.h"
+	"errors.h"
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1404725345 /files/git/codeblocks/bot2/trader/api/api_private.h
+	<stdbool.h>
+
+1404796273 source:/files/git/codeblocks/bot2/trader/api/api_public.c
+	"api_public.h"
+
+1404725402 /files/git/codeblocks/bot2/trader/api/api_public.h
+	<stdbool.h>
+
+1412927810 source:/files/git/codeblocks/bot2/api/api.c
+	"api.h"
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	<syslog.h>
+	<stdio.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api.h
+	<stdbool.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_routines.h
+	<stdbool.h>
+	<stdlib.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_defines.h
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_parser.c
+	"api_parser.h"
+	"api_parser_routines.h"
+	<string.h>
+	<syslog.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_parser_routines.h
+	"jsmn/jsmn.h"
+	"api_defines.h"
+	<stdbool.h>
+
+1409717410 /files/git/codeblocks/bot2/api/jsmn/jsmn.h
+	<stddef.h>
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_parser_routines.c
+	"api_parser_routines.h"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_routines.c
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	"api_sign.h"
+	"api_nonce.h"
+	<string.h>
+	<curl/curl.h>
+	<syslog.h>
+	<errno.h>
+
+1405051987 /files/git/codeblocks/bot2/api/sign.h
+
+1405051987 /files/git/codeblocks/bot2/api/nonce.h
+
+1409717410 source:/files/git/codeblocks/bot2/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1405051987 source:/files/git/codeblocks/bot2/api/nonce.c
+	"nonce.h"
+	<stdio.h>
+	<stdlib.h>
+	<syslog.h>
+
+1405051987 source:/files/git/codeblocks/bot2/api/sign.c
+	"sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+
+1409717410 /files/git/codeblocks/bot2/trader/ipc.h
+	<stdbool.h>
+	<time.h>
+
+1409717410 source:/files/git/codeblocks/bot2/trader/ipc.c
+	"ipc.h"
+	"conf.h"
+	<stdio.h>
+	<stdlib.h>
+	<mqueue.h>
+	<syslog.h>
+	<errno.h>
+	<string.h>
+
+1412695650 source:/ssd/git/codeblocks/bot2/api/api.c
+	"api.h"
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	<syslog.h>
+	<stdio.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api.h
+	<stdbool.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_routines.h
+	<stdbool.h>
+	<stdlib.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_parser.h
+	<stdbool.h>
+	<stddef.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_defines.h
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_nonce.c
+	"api_nonce.h"
+	<stdio.h>
+	<stdlib.h>
+	<syslog.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_nonce.h
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_parser.c
+	"api_parser.h"
+	"api_parser_routines.h"
+	<string.h>
+	<syslog.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_parser_routines.h
+	"jsmn/jsmn.h"
+	"api_defines.h"
+	<stdbool.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/jsmn/jsmn.h
+	<stddef.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_parser_routines.c
+	"api_parser_routines.h"
+	<errno.h>
+	<string.h>
+	<stdlib.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_routines.c
+	"api_routines.h"
+	"api_parser.h"
+	"api_defines.h"
+	"api_sign.h"
+	"api_nonce.h"
+	<string.h>
+	<curl/curl.h>
+	<syslog.h>
+	<errno.h>
+
+1406373143 /ssd/git/codeblocks/bot2/api/api_sign.h
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/api_sign.c
+	"api_sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/api/jsmn/jsmn.c
+	<stdlib.h>
+	"jsmn.h"
+
+1410448031 source:/ssd/git/codeblocks/bot2/trader/conf.c
+	"conf.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<syslog.h>
+	<libconfig.h>
+
+1410448031 /ssd/git/codeblocks/bot2/trader/conf.h
+	<stdbool.h>
+
+1419002468 source:/ssd/git/codeblocks/bot2/trader/exchange.c
+	"exchange.h"
+	"tmr.h"
+	"conf.h"
+	"ipc.h"
+	"../api/api.h"
+	"../api/api_parser.h"
+	<string.h>
+	<stdio.h>
+	<unistd.h>
+	<math.h>
+	<syslog.h>
+	<stdlib.h>
+
+1419002468 /ssd/git/codeblocks/bot2/trader/exchange.h
+	<stdbool.h>
+
+1406373143 /ssd/git/codeblocks/bot2/trader/tmr.h
+	<time.h>
+
+1406373143 /ssd/git/codeblocks/bot2/trader/ipc.h
+	<stdbool.h>
+	<time.h>
+
+1406373143 source:/ssd/git/codeblocks/bot2/trader/ipc.c
+	"ipc.h"
+	"conf.h"
+	<stdio.h>
+	<stdlib.h>
+	<mqueue.h>
+	<syslog.h>
+	<errno.h>
+	<string.h>
+
+1410448031 source:/ssd/git/codeblocks/bot2/trader/main.c
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<time.h>
+	<syslog.h>
+	<string.h>
+	<libgen.h>
+	"../api/api.h"
+	"exchange.h"
+	"conf.h"
+
+1406373143 source:/ssd/git/codeblocks/bot2/trader/tmr.c
+	"tmr.h"
+	<unistd.h>
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_nonce.c
+	"api_nonce.h"
+	<stdio.h>
+	<stdlib.h>
+	<syslog.h>
+
+1409717410 /files/git/codeblocks/bot2/api/api_nonce.h
+
+1409717410 /files/git/codeblocks/bot2/api/api_sign.h
+
+1409717410 source:/files/git/codeblocks/bot2/api/api_sign.c
+	"api_sign.h"
+	<stdlib.h>
+	<string.h>
+	<openssl/hmac.h>
+

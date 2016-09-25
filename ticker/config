@@ -1,0 +1,3 @@
+pair = "btc_usd"
+queue_len = 10
+log_delay = 5

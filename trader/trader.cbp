@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="trader" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/trader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-pg" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg" />
+					<Add library="curl" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/trader" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wextra" />
+					<Add option="-Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="crypto" />
+			<Add library="curl" />
+			<Add library="rt" />
+			<Add library="config" />
+		</Linker>
+		<Unit filename="../api/api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api.h" />
+		<Unit filename="../api/api_defines.h" />
+		<Unit filename="../api/api_nonce.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_nonce.h" />
+		<Unit filename="../api/api_parser.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_parser.h" />
+		<Unit filename="../api/api_parser_routines.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_parser_routines.h" />
+		<Unit filename="../api/api_routines.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_routines.h" />
+		<Unit filename="../api/api_sign.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/api_sign.h" />
+		<Unit filename="../api/jsmn/jsmn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../api/jsmn/jsmn.h" />
+		<Unit filename="api/nonce.conf" />
+		<Unit filename="conf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="conf.h" />
+		<Unit filename="exchange.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="exchange.h" />
+		<Unit filename="ipc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ipc.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tmr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="tmr.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
